@@ -50,16 +50,16 @@ class App extends Component {
         attributes: ["pastry?", "food?", "edible?", "Horrible when toasted!"], 
       },
     ],
-    shahzadsThings: [
+    andysThings: [
       {
-        name: "functional programming",
+        name: "guitar",
         image: "https://imgs.xkcd.com/comics/functional.png",  
-        attributes: ["efficient", "reusability", "not a taco", "beautiful"],
+        attributes: ["stringy", "mid sounding", "cool", "beautiful"],
       },
       {
-        name: "React hooks",
+        name: "coffee",
         image: "https://images.unsplash.com/photo-1518644730709-0835105d9daa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-        attributes: ["useEffect", "useState", "not a taco", "state's best friend"], 
+        attributes: ["great flavor", "", "not a taco", "state's best friend"], 
       },
       {
         name: "BluBlockers",
