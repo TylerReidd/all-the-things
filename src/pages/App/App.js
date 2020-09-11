@@ -80,8 +80,8 @@ class App extends Component {
             <>
               {/* All the <a> tags should live here */}
               <h2>All-The-Things</h2>
-              <a href="/tylersstuff">Tyler's Things</a><br></br>
-              <a href="/davidsThingys">Daye's Things</a> 
+              <a href="/tylersstuff">Tyler's Things</a>< br />
+              <a href="/davidsThingys">Daye's Things</a><br />
               <a href="/andysthings">Andy's Things</a>
             </>
           }
