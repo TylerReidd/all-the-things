@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom'
 import './App.css';
 import TylersThings from '../TylersThings/TylersThings'
+import DavidsThings from '../DavidsThings/DavidsThings'
 
 import AndysThings from '../AndysThings/AndysThings';
 
@@ -32,9 +33,9 @@ class App extends Component {
     ],
     davidsThings: [
       {
-        name: "waffle",
-        image: "https://i.imgur.com/C3PmdhO.jpg",  
-        attributes: ["tasty", "fluffy", "breakfast", "yummy"],
+        name: "Xbox",
+        image: "https://i.imgur.com/IsqjVmub.jpg",  
+        attributes: ["time consuming", "enjoyable", "intensive", "black"],
       },
       {
         name: "giraffe",
@@ -42,14 +43,14 @@ class App extends Component {
         attributes: ["tall", "cool", "fun", "animal", "(David doesn't acually own a giraffe)"], 
       },
       {
-        name: "Rugby",
-        image: "https://i.imgur.com/X4VC4nm.jpg",  
-        attributes: ["scruffy", "happy", "sleepy", "wise"], 
+        name: "Alfredo Pasta",
+        image: "https://i.imgur.com/MpCOIuyb.jpg",  
+        attributes: ["Pasta", "delicious", "vegan", "creamy"], 
       },
       {
         name: "Poptart®",
-        image: "https://i.imgur.com/q9zgcaP.jpg",  
-        attributes: ["pastry?", "food?", "edible?", "Horrible when toasted!"], 
+        image: "https://i.imgur.com/MpCOIuyb.jpg",  
+        attributes: ["p", "food?", "edible?", "Horrible when toasted!"], 
       },
     ],
     andysThings: [
@@ -79,9 +80,9 @@ class App extends Component {
             <>
               {/* All the <a> tags should live here */}
               <h2>All-The-Things</h2>
-              <a href="/tylersstuff">Tyler's Things</a> <br />
-
-              <a href="/andysthings">Andy's Things</a> 
+              <a href="/tylersstuff">Tyler's Things</a><br></br>
+              <a href="/davidsThingys">Daye's Things</a> 
+              <a href="/andysthings">Andy's Things</a>
             </>
           }
         />
@@ -93,7 +94,14 @@ class App extends Component {
           tylersThings={this.state.tylersThings}
             />
         }/>
-        <Route 
+        <Route
+          exact path='/davidsThingys'
+          render={() => 
+          <DavidsThings
+          davidsThings={this.state.davidsThings}
+          />
+          }/>
+          <Route 
           exact path='/andysthings'
           render={() => 
             <AndysThings
