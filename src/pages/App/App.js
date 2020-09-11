@@ -30,9 +30,9 @@ class App extends Component {
     ],
     davidsThings: [
       {
-        name: "waffle",
-        image: "https://i.imgur.com/C3PmdhO.jpg",  
-        attributes: ["tasty", "fluffy", "breakfast", "yummy"],
+        name: "Xbox",
+        image: "https://i.imgur.com/IsqjVmub.jpg",  
+        attributes: ["time consuming", "enjoyable", "intensive", "black"],
       },
       {
         name: "giraffe",
@@ -40,14 +40,14 @@ class App extends Component {
         attributes: ["tall", "cool", "fun", "animal", "(David doesn't acually own a giraffe)"], 
       },
       {
-        name: "Rugby",
-        image: "https://i.imgur.com/X4VC4nm.jpg",  
-        attributes: ["scruffy", "happy", "sleepy", "wise"], 
+        name: "Alfredo Pasta",
+        image: "https://i.imgur.com/MpCOIuyb.jpg",  
+        attributes: ["Pasta", "delicious", "vegan", "creamy"], 
       },
       {
         name: "Poptart®",
-        image: "https://i.imgur.com/q9zgcaP.jpg",  
-        attributes: ["pastry?", "food?", "edible?", "Horrible when toasted!"], 
+        image: "https://i.imgur.com/MpCOIuyb.jpg",  
+        attributes: ["p", "food?", "edible?", "Horrible when toasted!"], 
       },
     ],
     shahzadsThings: [
