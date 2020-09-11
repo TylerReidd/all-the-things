@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom'
 import './App.css';
 import TylersThings from '../TylersThings/TylersThings'
+import DavidsThings from '../DavidsThings/DavidsThings'
 
 class App extends Component {
   state = { 
@@ -82,7 +83,8 @@ class App extends Component {
             <>
               {/* All the <a> tags should live here */}
               <h2>All-The-Things</h2>
-              <a href="/tylersstuff">Tyler's Things</a> 
+              <a href="/tylersstuff">Tyler's Things</a><br></br>
+              <a href="/davidsThingys">Daye's Things</a> 
             </>
           }
         />
@@ -94,6 +96,13 @@ class App extends Component {
           tylersThings={this.state.tylersThings}
             />
         }/>
+        <Route
+          exact path='/davidsThingys'
+          render={() => 
+          <DavidsThings
+          davidsThings={this.state.davidsThings}
+          />
+          }/>
       </>
       
     );
