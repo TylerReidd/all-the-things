@@ -23,8 +23,8 @@ class App extends Component {
       },
       {
         name: 'The Brothers Kramazov',
-        image: 'https://i.imgur.com/3BmfSOA.png',
-        attributes: ["not a taco", "not Windows", "not macOS", "Penguins?"] 
+        image: 'https://i.imgur.com/xByJGwP.jpg',
+        attributes: ["A Book", "The Grand Inquizetor", "Pages", "Morality"] 
       },
 
     ],
